@@ -11,7 +11,7 @@ body {
 }
 .dashboard{
     display:grid;
-    grid-template-columns:20% 80%;
+    grid-template-columns:250px 1fr;
     /* grid-template-rows: 10% 90%; */
 }
 .material-icons.dashicon{
@@ -44,6 +44,7 @@ body {
     display:grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 1fr;
+    height:10vh;
 }
 .top{
     grid-column:1/3;
@@ -83,12 +84,13 @@ body {
 }
 
 .main-content{
+    background-color: #A7D2CB;
     display:grid;
     grid-column: 2/-1;
     grid-template-columns: 2fr 1fr;
     /* grid-template-rows: repeat(2,1fr); */
     /* position: relative; */
-    height:100vh;
+    height:90vh;
     
 }
 .projects{
@@ -101,8 +103,8 @@ body {
 .cards-section{
     position: relative;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
-    gap:16px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    
 }
 .announcement{
     grid-row:1/2;
@@ -111,9 +113,10 @@ body {
 .trending{
     position:relative;
 }
-/* .card{
+.card{
     display:grid;
     align-content: space-evenly;
     justify-items: end;
-} */
+    height:300px;
+}
 
