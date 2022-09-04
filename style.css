@@ -84,6 +84,7 @@ input[type=search]{
     align-items: center;
 }
 
+
 .botbtn{
     display:flex;
     justify-content: flex-end;
