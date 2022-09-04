@@ -94,7 +94,9 @@ input[type=search]{
     border-radius: 50%;
     margin-right: 10px;
 }
-
+.profilename > h4{
+    font-size: 20px;
+}
 .botbtn{
     display:flex;
     justify-content: flex-end;
@@ -196,6 +198,9 @@ input[type=search]{
     flex-direction: column;
     margin-left: 10px;
     gap:5px;
+}
+.trendcardtext > p{
+    opacity:0.80;
 }
 .card{
     display:grid;
