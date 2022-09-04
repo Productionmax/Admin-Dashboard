@@ -36,6 +36,10 @@ body {
     align-items: center;
     gap:10px;
 }
+.selection > p:hover {
+    cursor:pointer;
+    color:#09223b;
+}
 .firstbar,.midbar,.lastbar{
     display:flex;
     flex-direction: column;
